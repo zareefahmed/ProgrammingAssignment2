@@ -23,7 +23,7 @@ list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 
 
 # This function returns the inverse of the matrix. 
-# the inverse has already been computed and it is available in cache, then it return the result and skips the
+# If inverse has already been computed and it is available in cache, then it return the result and skips the
 # computation. If not, it computes the inverse, sets the value in the cache via
 # our earlier  setinverse function.
 # we are  assuming that the matrix is always invertible.
